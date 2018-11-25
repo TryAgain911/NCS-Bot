@@ -1,12 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const ytdl = require("ytdl-core");
-const request = require("request");
-const fs = require("fs");
-const getYouTubeID = require("get-youtube-id");
-const fetchVideoInfo = require("yourtube-info");
-
+c
 
 client.on('ready', () => {
     console.log('I am ready!');
